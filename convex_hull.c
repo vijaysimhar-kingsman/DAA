@@ -3,14 +3,13 @@ struct point{
 	int x;
 	int y;
 };
-
 int main(){
 	int len;int i=0,j,k;
 	printf("enter how many points you wanna enter :");
 	scanf("%d",&len);
 	
 	struct point p[len];
-	
+	//inputing points 
 	int xval,yval;
 	for(i=0;i<len;i++){
 		printf("\nenter %d point x value :",i+1);
@@ -19,7 +18,8 @@ int main(){
 		printf("\nenter %d point y value :",i+1);
 		scanf("%d",&yval);
 		p[i].y=yval;
-	}/*for(i=0;i<len;i++){
+	}//printing points
+	/*for(i=0;i<len;i++){
 		printf("\n (%d ,%d )  ",p[i].x,p[i].y);
 	}*/
 	int a,b,c;
@@ -51,7 +51,7 @@ int main(){
 	}
 }
 
-
+//vijaysimharockz@gmail.com
 
 
 

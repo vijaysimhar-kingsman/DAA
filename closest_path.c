@@ -57,3 +57,17 @@ int main(){
 		
 	}printf("\n\n(%d,%d),(%d,%d) are having closest path i.e %.2f\n ",p[k].x,p[k].y,p[l].x,p[l].y,min);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+//vijaysimharockz@gmail.com
+
